@@ -31,20 +31,34 @@ class ViewController: UIViewController {
 
     @IBAction func changeRedValue() {
         redValueLabel.text = String(format: "%.2f", redSlider.value)
-        colorPaletteLabel.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
-        
+        colorPaletteLabel.backgroundColor = UIColor(
+            red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1
+        )
     }
     
     
     @IBAction func changeGreenValue() {
         greenValueLabel.text = String(format: "%.2f", greenSlider.value)
-        colorPaletteLabel.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        colorPaletteLabel.backgroundColor = UIColor(
+            red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1
+        )
     }
     
     
     @IBAction func changeBlueValue() {
         blueValueLabel.text = String(format: "%.2f", blueSlider.value)
-        colorPaletteLabel.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        colorPaletteLabel.backgroundColor = UIColor(
+            red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1
+        )
     }
     
 }
@@ -82,8 +96,12 @@ extension ViewController {
     
     private func paletteLabelLoad() {
         colorPaletteLabel.layer.cornerRadius = 15
-        let startColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
+        let startColor = UIColor(
+            red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1
+        )
         colorPaletteLabel.backgroundColor = startColor
     }
-    
 }
