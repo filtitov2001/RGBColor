@@ -1,7 +1,7 @@
 # RGBColor
 
 This application created for training with Stacks View and protocols.<br/>
-App show screen with setting Color by RGB and pass it to main screen. 🌈
+App show screen with setting Color by RGB scale and pass it to main screen. 🌈
 
 <div align="center">
   
