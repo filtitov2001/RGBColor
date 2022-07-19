@@ -1,6 +1,6 @@
 # RGBColor
 
-This application created for training with Stacks View and protocols.<br/>
+This application created for training with UIStackViews and protocols with delegating.<br/>
 App show screen with setting Color by RGB scale and pass it to main screen. 🌈
 
 <div align="center">
